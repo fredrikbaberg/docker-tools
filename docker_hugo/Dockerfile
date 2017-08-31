@@ -9,6 +9,6 @@ RUN GOPATH=~/go go install github.com/gohugoio/hugo
 FROM alpine:latest
 WORKDIR /root/
 COPY --from=0 /root/go/bin/hugo /bin/hugo
+EXPOSE 1313
 WORKDIR /site
 VOLUME /site
-EXPOSE 1313
