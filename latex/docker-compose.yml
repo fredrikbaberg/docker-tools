@@ -1,0 +1,11 @@
+version: '3'
+services:
+  latex:
+    build:
+      context: .
+      args:
+        http_proxy:
+    container_name: latex
+    image: local/latex
+    volumes:
+        - ${pwd}:/docs
