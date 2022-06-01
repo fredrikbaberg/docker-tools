@@ -18,3 +18,6 @@ Test network speed using Speedtest. Built using Docker automated builds.
 Run the script 'build_docker.sh' in Dockerfile folder, with image tag (name) as argument. E.g.:
 
 > cd docker_latex && bash ../build_docker.sh docker_latex
+
+## Flutter
+Build Flutter for web.
