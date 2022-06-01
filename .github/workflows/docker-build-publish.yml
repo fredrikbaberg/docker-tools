@@ -36,6 +36,10 @@ jobs:
         include:
           - context: flutter/
             image: ghcr.io/fredrikbaberg/flutter
+          - context: bredbandskollen/
+            image: ghcr.io/fredrikbaberg/bredbandskollen
+          - context: speedtest/
+            image: ghcr.io/fredrikbaberg/speedtest
     permissions:
       contents: read
       packages: write
